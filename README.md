@@ -17,18 +17,7 @@ This repository contains the official Jupyter Notebooks for the **LightBASNeSt: 
 
 Raw images are not included in this repository due to storage and licensing constraints. Please acquire the datasets from the official sources or configure your local folder structure as follows:
 
-### Dataset 1: Black Gram Plant Leaf Disease Dataset (BPLD)
-* **Title**: Blackgram Plant Leaf Disease Dataset
-* **Link**: [https://doi.org/10.17632/zfcv9fmrgv.3](https://doi.org/10.17632/zfcv9fmrgv.3)
-* **Total Images**: 1,007 images across 5 distinct diagnostic categories.
-* **Class Distribution**:
-  * Anthracnose: 230 images
-  * Healthy: 221 images
-  * Leaf Crinckle: 152 images
-  * Powdery Mildew: 180 images
-  * Yellow Mosaic: 224 images
-
-### Dataset 2: Mendeley Black Gram Dataset
+### Dataset 1: Mendeley Black Gram Dataset
 * **Title**: Image Dataset for Disease Detection in Black Gram (Vigna mungo) Leaves: A Resource for Machine Learning Research
 * **Link**: [https://doi.org/10.17632/z55yrbmn2d.3](https://doi.org/10.17632/z55yrbmn2d.3)
 * **Total Samples**: 4,038 images across 5 categories.
@@ -39,6 +28,16 @@ Raw images are not included in this repository due to storage and licensing cons
   * Insect: 408 images
   * Yellow Mosaic: 1,681 images
 
+### Dataset 2: Black Gram Plant Leaf Disease Dataset (BPLD)
+* **Title**: Blackgram Plant Leaf Disease Dataset
+* **Link**: [https://doi.org/10.17632/zfcv9fmrgv.3](https://doi.org/10.17632/zfcv9fmrgv.3)
+* **Total Images**: 1,007 images across 5 distinct diagnostic categories.
+* **Class Distribution**:
+  * Anthracnose: 230 images
+  * Healthy: 221 images
+  * Leaf Crinckle: 152 images
+  * Powdery Mildew: 180 images
+  * Yellow Mosaic: 224 images
 ---
 
 ## Setup and Usage
