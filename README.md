@@ -121,9 +121,9 @@ To demonstrate the superiority of the proposed architecture, multiple standard b
 To ensure the network relies on relevant biological features rather than background artifacts:
 * **Qualitative Explainability**:
   * **Grad-CAM**: Generates class activation maps from the final convolutional layer to highlight diseased leaf regions.
-  * **SHAP (SHapley Additive exPlanations)**: Computes pixel-level feature attribution scores.
+  * **Score-CAM**: Generates gradient-free activation maps by weighting forward-pass contributions to provide smoother, noise-free visual explanations.
 * **Quantitative Explainability**:
   * **Deletion / Insertion Scores**: Measures accuracy decay when high-attribution pixels are progressively masked vs. inserted.
-  * **Confidence Drop Test**: Quantifies confidence drop when input images are cropped strictly to the activation bounding box identified by Grad-CAM.
+
 
 ---
