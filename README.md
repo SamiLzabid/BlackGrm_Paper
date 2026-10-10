@@ -95,7 +95,7 @@ graph TD
 
 ### Phase 3: Model Architecture & Comparative Benchmarking
 To demonstrate the superiority of the proposed architecture, multiple standard backbones are evaluated under identical training conditions:
-* **Baselines**: AlexNet, VGG16, VGG19, ResNet50, and MobileNetV2.
+* **Baselines**: DenseNet, MobileNetV4, ResNeSt50d, SwinV2_tiny and EfficientViT_m3.
 * **Optimization & Loss**:
   * **Loss Function**: Cross-Entropy Loss (`nn.CrossEntropyLoss`).
   * **Optimizer**: Adam / AdamW with initial learning rate $10^{-4}$.
@@ -110,7 +110,7 @@ To demonstrate the superiority of the proposed architecture, multiple standard b
   * **Environmental Variations**: Color jitter, contrast variation, and motion blur are injected using OpenCV (`cv2`).
 * **Statistical Validation**:
   * **$K$-Fold Cross-Validation**: 5-Fold cross-validation assesses variance across data splits.
-  * **Significance Testing**: Paired Student’s $t$-test and Wilcoxon signed-rank tests compare performance differences between the proposed model and baselines ($p < 0.05$).
+  * **Significance Testing**: Paired Student’s $t$-test compare performance differences between the proposed model and baselines ($p < 0.05$).
 
 ### Phase 5: Computational Efficiency Analysis
 * **Parameter Count & Memory**: Total trainable parameters and model memory footprints are recorded.
