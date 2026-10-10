@@ -8,7 +8,6 @@ This repository contains the official Jupyter Notebooks for the **LightBASNeSt: 
 ├── code/
 │   ├── BlckGrm_D1.ipynb       # Dataset1 results
 │   ├── BlckGrm_D2.ipynb       # Dataset2 results
-│   ├── LighBASNeSt.ipynb      # Proposed Model implementation
 └── README.md                  # Project documentation
 ```
 
