@@ -49,11 +49,19 @@ Raw images are not included in this repository due to storage and licensing cons
    git clone [https://github.com/Samilzabid/BlackGrm_Paper.git](https://github.com/Samilzabid/BlackGrm_Paper.git)
    cd BlackGrm_Paper
    ```
+2. **Dependencies and Installation**:
 
-2. **Directory Configuration**:
+Ensure you have Python 3.8+ installed on your system. The project relies on several core machine learning, computer vision, and data processing libraries. 
+
+You can install all the required dependencies using `pip`:
+
+```bash
+pip install torch torchvision numpy pandas matplotlib seaborn scikit-learn opencv-python Pillow tqdm albumentations
+```
+3. **Directory Configuration**:
    Download and extract the datasets into your local machine (e.g., `D:/BPLD Dataset/Original`).
 
-3. **Run the Code**:
+4. **Run the Code**:
    * Open the desired notebook inside the `code/` directory.
    * Update the dataset path variable in the configuration cell:
      ```python
