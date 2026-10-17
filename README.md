@@ -5,7 +5,7 @@ This repository contains the official Jupyter Notebooks for the **LightBASNeSt: 
 ## Repository Structure
 
 ```text
-├── code/
+├── codes/
 │   ├── BlckGrm_D1.ipynb       # Dataset1 results
 │   ├── BlckGrm_D2.ipynb       # Dataset2 results
 └── README.md                  # Project documentation
